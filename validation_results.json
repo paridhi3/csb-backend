@@ -1,0 +1,74 @@
+[
+    {
+        "file_name": "Wabtec Data Lake Separation Case Study 2.pptx",
+        "category_confidence": 0.95,
+        "domain_confidence": 0.9,
+        "technology_confidence": 0.98
+    },
+    {
+        "file_name": "Reference Data Master and Customer Registry helps Major Cable Provider Case Study 1.pptx",
+        "category_confidence": 0.95,
+        "domain_confidence": 0.95,
+        "technology_confidence": 0.98
+    },
+    {
+        "file_name": "Nike Data Foundation Case Study 2.pptx",
+        "category_confidence": 0.95,
+        "domain_confidence": 0.9,
+        "technology_confidence": 0.92
+    },
+    {
+        "file_name": "Legg_Mason_Case_Study 2.pptx",
+        "category_confidence": 0.95,
+        "domain_confidence": 0.9,
+        "technology_confidence": 0.98
+    },
+    {
+        "file_name": "Improved data quality of the ‘client’ data by cleansing, enriching Case Study 3.pptx",
+        "category_confidence": 1.0,
+        "domain_confidence": 1.0,
+        "technology_confidence": 0.95
+    },
+    {
+        "file_name": "Data Quality program for a large US-based Aviation Case Study 4.pptx",
+        "category_confidence": 0.95,
+        "domain_confidence": 0.95,
+        "technology_confidence": 0.98
+    },
+    {
+        "file_name": "Data Quality led Data Governance organization operationalizationCase Study 6.pptx",
+        "category_confidence": 0.95,
+        "domain_confidence": 0.95,
+        "technology_confidence": 0.9
+    },
+    {
+        "file_name": "Data profiling, cleansing & future state design for a Large Financial Institution Case Study 2.pptx",
+        "category_confidence": 0.95,
+        "domain_confidence": 0.9,
+        "technology_confidence": 0.92
+    },
+    {
+        "file_name": "Data Governance Solution Case Study 5.pptx",
+        "category_confidence": 1.0,
+        "domain_confidence": 1.0,
+        "technology_confidence": 0.95
+    },
+    {
+        "file_name": "Data Governance  solution for a US Healthcare client (dental equipment Case Study 7.pptx",
+        "category_confidence": 0.95,
+        "domain_confidence": 0.95,
+        "technology_confidence": 0.9
+    },
+    {
+        "file_name": "Case Study 8.pptx",
+        "category_confidence": 0.95,
+        "domain_confidence": 0.9,
+        "technology_confidence": 0.98
+    },
+    {
+        "file_name": "Case Study 1.pptx",
+        "category_confidence": 1.0,
+        "domain_confidence": 0.95,
+        "technology_confidence": 0.98
+    }
+]
