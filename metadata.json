@@ -1,86 +1,86 @@
 [
     {
-        "file_name": "Wabtec Data Lake Separation Case Study 2.pptx",
-        "summary": "A large-scale data lake migration was executed for a global company spanning freight, transit, electronics, and other sectors, following an ambitious merger. The project involved moving over 112TB of real-time, business-critical data across 30+ technologies to a new cloud-based platform, with zero data loss and minimal downtime. Genpact's cloud expertise and assets were leveraged to accelerate migration, using AWS infrastructure and open-source tools to create a scalable, cost-effective architecture. Automation via Chef scripts and Infrastructure as Code enabled rapid deployment and configuration, ensuring on-time go-live and seamless business continuity.",
-        "category": "Data Platform Migration & Integration",
-        "domain": "Transportation & Industrial Equipment",
-        "technology": "AWS (IaaS), Open Source Stack, Chef Scripts, Infrastructure as Code (IaC), Hadoop"
-    },
-    {
-        "file_name": "Reference Data Master and Customer Registry helps Major Cable Provider Case Study 1.pptx",
-        "summary": "A major cable provider faced challenges in complying with CCPA regulations, requiring accurate identification, cleansing, and reporting of personal data stored across multiple business applications. The solution involved implementing an MDM Reference Master framework to integrate enterprise source applications and manage CCPA-impacted data attributes. This platform enabled data remediation, governance, and ensured consumer rights such as data access, deletion, and opt-out were properly audited and logged. Deduplication and survivorship rules were applied to create a validated, consolidated consumer report. The approach delivered a reusable, enterprise-wide solution for CCPA compliance.",
-        "category": "Compliance",
-        "domain": "Media and Entertainment",
-        "technology": "Master Data Management (MDM) Reference Master, Data Remediation, Data Governance, Deduplication and Survivorship Rules, Customer Registry"
-    },
-    {
-        "file_name": "Nike Data Foundation Case Study 2.pptx",
-        "summary": "Nike faced significant challenges during the pandemic, including a sharp decline in sales and operational inefficiencies due to fragmented systems and legacy applications. To enable growth in its direct-to-consumer channel, Nike implemented a cloud-based data and analytics transformation in its Finance function. Leveraging AWS and Snowflake, the solution provided improved revenue visibility, actionable SG&A insights, and substantial cash flow benefits. The transformation included automated data extraction, quality assurance, governance, and persona-driven visualization, resulting in reduced manual effort and enhanced agility.",
-        "category": "Finance Transformation",
-        "domain": "Retail (Athletic Footwear and Apparel)",
-        "technology": "AWS, Snowflake Cloud Platform, Data & Analytics CoE, Data Streaming, Data Quality Assurance, Data Governance, Visualization Tools (Cognos, Tableau, Domo), AI/ML Predictive Analytics"
-    },
-    {
-        "file_name": "Legg_Mason_Case_Study 2.pptx",
-        "summary": "A leading investment and asset management firm implemented an AWS-based enterprise data hub to modernize its data architecture and management operations. The solution integrated diverse data sources, including transactions, sales, customer, campaign, and web analytics, to support advanced business use cases like sales dashboards and campaign effectiveness. The initiative resulted in reduced data processing timelines, lower infrastructure costs, and improved scalability and efficiency. Legacy systems were integrated and dependencies reduced, enabling enhanced analytics and business insights.",
-        "category": "Data Management & Analytics",
-        "domain": "Financial Services / Investment & Asset Management",
-        "technology": "AWS S3 Enterprise Data Lake, AWS Redshift, Apache Spark, AWS EMR, Lambda, Step Functions, Data Pipeline, Tableau, GIT, Jenkins"
-    },
-    {
-        "file_name": "Improved data quality of the ‘client’ data by cleansing, enriching Case Study 3.pptx",
-        "summary": "A diversified global insurer improved the quality of its client data by implementing a comprehensive data cleansing, enrichment, and deduplication process. Automated tools (D&B) handled 70% of the cleansing, while the remaining 30% was completed manually. The project defined critical data elements and sources, resulting in a 70% reduction in completeness issues and a 55% decrease in downstream problems, enhancing user experience and compliance. Data profiling and dashboards were used to monitor accuracy, integrity, and timeliness throughout the process.",
-        "category": "Data Management",
-        "domain": "Insurance",
-        "technology": "D&B (Dun & Bradstreet), Informatica Analyst, Informatica Data Quality (DQ), manual data cleansing, data profiling dashboards"
-    },
-    {
-        "file_name": "Data Quality program for a large US-based Aviation Case Study 4.pptx",
-        "summary": "A large US-based aviation organization faced challenges with inconsistent and non-standardized data spread across global locations, risking the identification of top business customers. The solution involved profiling data, developing cleansing and standardization rules, and using fuzzy matching to improve data quality. Informatica tools and reference tables were leveraged to validate and standardize international data, with cleansed data stored in an intermediary data store for integration with the client's MDM system. This program enabled proactive monitoring, improved data quality, and enhanced product stability across the enterprise.",
-        "category": "Data Management / Data Quality",
-        "domain": "Aviation",
-        "technology": "Informatica Analyst, Informatica Data Quality (DQ), Informatica PowerCenter (ETL), Address Doctor, Fuzzy Matching, Data Profiling"
-    },
-    {
-        "file_name": "Data Quality led Data Governance organization operationalizationCase Study 6.pptx",
-        "summary": "The organization faced challenges with data trust, ownership, and inefficient use of enterprise data services, lacking visibility into data changes and their impacts. To address these issues, a data governance organization and operating model were established using platforms like Collibra, Informatica, and IBM. Over 1800 critical data elements and 6000 data quality rules were implemented across 12 business domains in 8 months, providing clear data lineage and integrated quality metrics. Agile governance processes and a comprehensive handbook improved transparency and ownership, while visualizations showcased governance effectiveness.",
+        "file_name": "Case Study 1.pptx",
+        "summary": "A global retail pharmacy client faced challenges in managing and referencing corporate data definitions, business glossaries, and KPI calculations. The project involved creating a comprehensive data catalog, business glossary, and KPI definition documents, as well as establishing end-to-end data lineage and metadata visibility. Custom workflows were developed for business term proposals and account processes, and integration with platforms like ServiceNow and Ataccama was initiated. The solution also included governance, stewardship design, and the application of data sharing policies across 40+ datasets.",
         "category": "Data Governance",
-        "domain": "Enterprise Data Management",
-        "technology": "Collibra, Informatica, IBM, Data Governance Handbook, Data Quality Framework, Data Cockpit Visualizations"
-    },
-    {
-        "file_name": "Data profiling, cleansing & future state design for a Large Financial Institution Case Study 2.pptx",
-        "summary": "A large financial institution faced challenges due to the lack of formal data governance, data quality organizations, and centralized data management, resulting in inaccurate vendor master data and limited risk visibility. The solution involved data profiling, one-time cleansing, and designing a future state for processes, metrics, controls, and technology to improve data quality and governance. Key impacts included a 30% improvement in spend visibility, significant productivity gains, and enhanced vendor master data accuracy. The project also established a global data dictionary and recommended setting up a business data services organization.",
-        "category": "Data Governance and Data Management",
-        "domain": "Financial Services",
-        "technology": "Informatica Analyst, Informatica Data Quality (DQ), self-serve vendor management tool"
-    },
-    {
-        "file_name": "Data Governance Solution Case Study 5.pptx",
-        "summary": "The case study describes the implementation of a comprehensive Data Governance solution, focusing on documenting business and technical assets, and establishing complex data lineage across multiple data sources. The project involved automating metadata updates and data quality rule scoring for over 50 datasets and 500 rules, using advanced and custom scanners. Integration of tools like IDQ, EDC, and AXON enabled seamless enrichment of business metadata and traceability of data sources. The solution improved data quality monitoring and business glossary management, supporting better data stewardship.",
-        "category": "Data Governance",
-        "domain": "Information Technology / Data Management",
-        "technology": "Informatica EDC, AXON, IDQ, custom lineage scanners, Oracle, AWS Aurora, Flat files, AWS S3, Snowflake"
-    },
-    {
-        "file_name": "Data Governance  solution for a US Healthcare client (dental equipment Case Study 7.pptx",
-        "summary": "Genpact implemented a comprehensive data governance solution for a US healthcare client specializing in dental equipment manufacturing. The client faced challenges with inconsistent data definitions and lack of data lineage visibility. Genpact created a unified business glossary, refined asset definitions, and established data lineage for over 40 datasets. The solution included identification of PII data and enrichment of technical assets with business metadata. End-to-end support was provided, including onboarding assets to Microsoft Purview and configuring metadata scanners across Azure and SQL databases.",
-        "category": "Data Governance",
-        "domain": "Healthcare",
-        "technology": "Microsoft Purview, Azure Data Lake, SQL, Azure SQL, metadata scanners"
+        "domain": "Retail Pharmacy",
+        "technology": "Collibra, Core JAVA APIs, ServiceNow, Ataccama, Data Catalogs, Metadata Management"
     },
     {
         "file_name": "Case Study 8.pptx",
-        "summary": "A US multinational provider of data and technology in Dealer Services faced challenges with inconsistent data definitions, lack of a unified business glossary, and compliance with PII data requirements. Genpact implemented a data governance solution using Alation Data Governance, creating a comprehensive data catalog, business glossary, and data dictionary. The project involved ingesting metadata from multiple data sources, identifying over 7000 PII data elements, and establishing end-to-end data lineage to improve compliance and data visibility.",
+        "summary": "A US multinational provider of data and technology in Dealer Services faced challenges with inconsistent corporate data definitions, lack of a unified business glossary, and difficulties in identifying PII data for compliance. Genpact implemented a data governance solution using Alation Data Governance, creating a comprehensive data catalog, business glossary, and custom rules for PII identification. The solution ingested metadata from multiple platforms, established end-to-end data lineage, and supported compliance by identifying over 7000 PII elements. The project also involved defining KPIs and measures, with ongoing work to enhance data visibility and stewardship.",
         "category": "Data Governance",
         "domain": "Automotive Dealer Services / Technology",
         "technology": "Alation Data Governance, Alation APIs, SQL Server, Oracle, Snowflake, Amazon S3 Athena, Postgres, Looker, Tableau, PowerBI"
     },
     {
-        "file_name": "Case Study 1.pptx",
-        "summary": "A global retail pharmacy client faced challenges with inconsistent corporate data definitions and lack of unified business glossaries. The project involved creating a comprehensive data catalog, business glossary, and KPI definition documents, supporting implementation and requirements gathering. Key activities included designing governance workflows, data classification, and establishing end-to-end metadata lineage. Custom workflows were developed using Core JAVA APIs, and integration with platforms like ServiceNow and Ataccama was initiated. Over 400 business glossary terms and lineage for 40+ datasets were created to optimize data governance and sharing policies.",
+        "file_name": "Data Governance  solution for a US Healthcare client (dental equipment Case Study 7.pptx",
+        "summary": "Genpact assisted a US healthcare client, a dental equipment manufacturer, in overcoming challenges related to the lack of a unified source for corporate data definitions. The solution involved creating a comprehensive business glossary, refining asset definitions, and establishing data lineage for over 40 datasets. Genpact identified PII data, onboarded various assets to Microsoft Purview, and enriched technical assets with business metadata. The initiative improved metadata visibility, catalog adoption, and data governance across multiple data sources.",
         "category": "Data Governance",
-        "domain": "Retail Pharmacy",
-        "technology": "Collibra, Core JAVA APIs, ServiceNow, Ataccama, Data Catalogs, Metadata Management"
+        "domain": "Healthcare",
+        "technology": "Microsoft Purview, Azure Data Lake, SQL, Azure SQL, metadata scanners, data cataloging, data lineage tools"
+    },
+    {
+        "file_name": "Data Governance Solution Case Study 5.pptx",
+        "summary": "The case study describes the implementation of a comprehensive Data Governance solution, focusing on documenting business and technical assets, and establishing complex data lineage across multiple systems. Over 50 datasets, 500+ data quality rules, and 300+ business glossary terms were documented, with metadata updated via scheduled scanners for various data sources including Oracle, Aurora, AWS S3, and Snowflake. Custom lineage scanners and integration of platforms like IDQ, EDC, and AXON enabled automated lineage setup and enriched business metadata. The solution allows business users and data stewards to trace data sources and monitor data quality scores efficiently.",
+        "category": "Data Governance",
+        "domain": "Information Technology / Data Management",
+        "technology": "Oracle, Aurora, AWS S3, Snowflake, Informatica EDC, AXON, IDQ, custom lineage scanners, metadata scanners"
+    },
+    {
+        "file_name": "Data profiling, cleansing & future state design for a Large Financial Institution Case Study 2.pptx",
+        "summary": "A large financial institution faced challenges due to the lack of formal data governance, data quality organizations, and centralized data management, resulting in inaccurate and incomplete vendor master data and limited risk visibility. The solution involved data profiling, one-time cleansing, and designing a future state for processes, metrics, controls, and technology to improve data quality and governance. Key impacts included a 30% improvement in spend visibility, significant productivity gains, and enhanced vendor master data accuracy. A global data dictionary was created, and recommendations were made to establish a business data services organization for master data management.",
+        "category": "Data Management & Governance",
+        "domain": "Financial Services",
+        "technology": "Informatica Analyst, Informatica Data Quality (DQ), self-serve vendor master tool"
+    },
+    {
+        "file_name": "Data Quality led Data Governance organization operationalizationCase Study 6.pptx",
+        "summary": "The organization faced challenges with data trust, ownership, and inefficient use of enterprise data services, lacking visibility into data changes and their impacts. To address these issues, a data governance organization and operating model were established using platforms like Collibra, Informatica, and IBM. Over 1800 critical data elements and 6000 data quality rules were implemented across 12 business domains in 8 months, providing clear data lineage and integrated quality metrics. Agile governance processes and a comprehensive handbook improved transparency and ownership. Visual dashboards were developed to track and communicate data governance effectiveness.",
+        "category": "Data Governance",
+        "domain": "Enterprise Data Management",
+        "technology": "Collibra, Informatica, IBM, Data Governance Handbook, Data Quality Framework, Data Cockpit Visualizations"
+    },
+    {
+        "file_name": "Data Quality program for a large US-based Aviation Case Study 4.pptx",
+        "summary": "A large US-based aviation organization faced challenges with inconsistent and non-standardized data spread across global locations, risking the identification of key business customers. The solution involved profiling data, developing cleansing and standardization rules, and validating addresses using Address Doctor licenses. Data quality integration enabled proactive monitoring and cleansing, improving product stability and simplifying data quality measurement. Techniques such as fuzzy matching, join and overlap analysis, and the creation of an Intermediary Data Store (IDS) were implemented. The project utilized Informatica tools for data profiling, cleansing, and integration.",
+        "category": "Data Management / Data Quality",
+        "domain": "Aviation",
+        "technology": "Informatica Analyst, Informatica Data Quality (DQ), Informatica PowerCenter (ETL), Address Doctor, Fuzzy Matching, Join Analysis, Overlap Analysis"
+    },
+    {
+        "file_name": "Improved data quality of the ‘client’ data by cleansing, enriching Case Study 3.pptx",
+        "summary": "A diversified global insurer improved the quality of its client data by implementing a comprehensive data cleansing, enrichment, and deduplication process. The initiative involved profiling data sources, defining critical data elements, and using both automated tools and manual methods to cleanse and enrich records. Automated cleansing with D&B addressed 70% of the data, while the remaining 30% was handled manually. The project resulted in a 70% reduction in completeness issues, a 55% decrease in downstream problems, and enhanced compliance. Data profiling dashboards and tools like Informatica Analyst and Informatica DQ were used throughout the process.",
+        "category": "Data Management / Data Quality",
+        "domain": "Insurance",
+        "technology": "D&B, Informatica Analyst, Informatica Data Quality (DQ), manual data cleansing, data profiling dashboards"
+    },
+    {
+        "file_name": "Legg_Mason_Case_Study 2.pptx",
+        "summary": "A leading investment and asset management firm implemented an AWS-based enterprise data hub to modernize its data architecture and management operations. The solution integrated diverse data sources, including transactions, sales, customer, campaign, and web analytics, to support advanced business use cases like sales dashboards and campaign effectiveness. The initiative resulted in reduced data processing timelines, lower infrastructure costs, and improved scalability and efficiency. Legacy systems were integrated and dependencies reduced, enabling enhanced analytics and business insights.",
+        "category": "Data Management & Analytics",
+        "domain": "Investment & Asset Management",
+        "technology": "AWS S3, AWS Redshift, Apache Spark, AWS EMR, AWS Lambda, AWS Step Functions, Data Pipeline, Tableau, GIT, Jenkins"
+    },
+    {
+        "file_name": "Nike Data Foundation Case Study 2.pptx",
+        "summary": "Nike faced significant challenges during the pandemic, including a sharp decline in sales and fragmented systems that hindered its pivot to a direct-to-consumer model. To address these issues, Nike implemented a cloud-based data and analytics solution, transforming its finance operations for greater agility and insight. The solution leveraged AWS and Snowflake, enabling predictive and prescriptive finance, improved revenue visibility, and substantial cash flow benefits. Key impacts included reduced manual effort, enhanced decision-making, and significant financial improvements such as reduced customer payment deductions and faster days sales outstanding (DSO). The transformation was supported by robust data governance, quality assurance, and persona-focused visualization tools.",
+        "category": "Finance Transformation / Data & Analytics",
+        "domain": "Athletic Footwear and Apparel",
+        "technology": "AWS, Snowflake Cloud Platform, Data Extraction (S4/CFIN, BW, AFS), Data Quality Assurance, Data Governance, Data Preparation & Transformation, Visualization Tools (Cognos, Tableau, Domo), AI/ML Predictive Analytics"
+    },
+    {
+        "file_name": "Reference Data Master and Customer Registry helps Major Cable Provider Case Study 1.pptx",
+        "summary": "A major cable provider faced challenges in complying with CCPA regulations, requiring accurate identification, cleansing, and reporting of personal data stored across multiple business applications. The solution involved implementing an MDM Reference Master framework to integrate enterprise source applications and derive business translations for consumer reports. MDM enabled data remediation, governance, and ensured all consumer data rights were audited and logged, providing a consolidated and validated summary of personal information. Deduplication and survivorship rules were applied to create the best version of truth for consumer data, supporting compliance and consumer requests.",
+        "category": "Compliance",
+        "domain": "Media and Entertainment",
+        "technology": "Master Data Management (MDM) Reference Master, Data Remediation, Data Governance, Deduplication and Survivorship Rules"
+    },
+    {
+        "file_name": "Wabtec Data Lake Separation Case Study 2.pptx",
+        "summary": "A large-scale data lake migration was executed for a global company spanning freight, transit, electronics, and equipment sectors. The project involved merging data from over 30 technologies and 112TB+ of real-time, business-critical data, with a strict timeline to avoid financial penalties. Genpact leveraged AWS cloud infrastructure, open-source tools, and automation via Chef scripts to ensure a seamless, low-risk migration with zero data loss and minimal downtime. The new platform enabled rapid cluster deployment, real-time data ingestion, and harmonized data sets for improved business synergies. The transition resulted in enhanced service delivery, operational efficiency, and shareholder value.",
+        "category": "Data Platform Migration & Integration",
+        "domain": "Transportation & Industrial Equipment",
+        "technology": "AWS (IaaS), Open Source Stack, Chef Scripts, Hadoop, Infrastructure as Code (IaC), Automated Data Migration Tools"
     }
 ]

@@ -11,7 +11,7 @@ langchain-openai
 llama-index
 tiktoken
 fastapi
-uvicorn
+uvicorn[standard]
 pydantic
 mcp-agents
 aiohttp
@@ -20,3 +20,5 @@ langchain-community
 chromadb
 pydantic
 asyncio
+pandas
+python-multipart
