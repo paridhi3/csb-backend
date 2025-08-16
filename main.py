@@ -72,10 +72,14 @@ def answer_from_metadata(query: str, metadata: list):
         return f"Category counts: {cat_counts}"
     return None
 
-@app.post("/chat")
-async def chat_with_metadata(
+from pydantic import BaseModel
+class QueryRequest(BaseModel):
     query: str
-):
+
+@app.post("/chat")
+async def chat_with_metadata(request: QueryRequest):
+    query = request.query
+
     # Read metadata.json content
     try:
         with open(METADATA_FILE, "r", encoding="utf-8") as f:
@@ -92,9 +96,10 @@ async def chat_with_metadata(
     try:
         context_text = json.dumps(metadata_parsed, indent=2)
         prompt = (
-            f"Answer the following question using this case study metadata:\n"
+            f"Answer the following question using this case study metadata. Format the response in Markdown:\n"
             f"{context_text}\n\nQuestion: {query}"
         )
+
 
         response = client.chat.completions.create(
             model=os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME", "gpt-4o"),
