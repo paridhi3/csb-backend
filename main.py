@@ -24,35 +24,50 @@ METADATA_FILE = "metadata.json"
 
 @app.post("/process")
 async def process_files(files: List[UploadFile]):
-    all_metadata = []
-    all_validation = []
+    # Load existing metadata if available
+    if os.path.exists(METADATA_FILE):
+        with open(METADATA_FILE, "r", encoding="utf-8") as f:
+            existing_metadata = json.load(f)
+    else:
+        existing_metadata = []
+
+    # Create a lookup for existing filenames
+    existing_files = {m["file_name"]: m for m in existing_metadata}
+    all_metadata = existing_metadata.copy()
 
     for file in files:
-        file_bytes = await file.read()
-        case_text, _ = process_case_study(file.filename, file_bytes)
+        if file.filename in existing_files:
+            # Reuse existing metadata
+            metadata = existing_files[file.filename]
+        else:
+            # Process new file
+            file_bytes = await file.read()
+            case_text, _ = process_case_study(file.filename, file_bytes)
 
-        categorization = categorize_case_study(case_text)
-        validation = validate_case_study(
-            categorization.get("category", ""),
-            categorization.get("domain", ""),
-            categorization.get("technology", "")
-        )
+            categorization = categorize_case_study(case_text)
+            validation = validate_case_study(
+                categorization.get("category", ""),
+                categorization.get("domain", ""),
+                categorization.get("technology", "")
+            )
 
-        metadata = {
-            "file_name": file.filename,
-            "summary": categorization.get("summary", ""),
-            "category": categorization.get("category", ""),
-            "domain": categorization.get("domain", ""),
-            "technology": categorization.get("technology", "")
-        }
-        all_metadata.append(metadata)
-        all_validation.append({"file_name": file.filename, **validation})
+            metadata = {
+                "file_name": file.filename,
+                "summary": categorization.get("summary", ""),
+                "category": categorization.get("category", ""),
+                "domain": categorization.get("domain", ""),
+                "technology": categorization.get("technology", ""),
+                **validation  # Embed validation scores directly
+            }
+            all_metadata.append(metadata)
 
-    # Save metadata to file (optional, to keep in sync)
+    # Save updated metadata with embedded validation
     with open(METADATA_FILE, "w", encoding="utf-8") as f:
         json.dump(all_metadata, f, indent=4, ensure_ascii=False)
 
-    return {"metadata": all_metadata, "validation": all_validation}
+    return {"metadata": all_metadata}
+
+
 
 def answer_from_metadata(query: str, metadata: list):
     q = query.lower()
